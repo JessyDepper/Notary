@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494C60A9200EC47B00AF3D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C60A8200EC47B00AF3D84 /* AppDelegate.m */; };
+		494C60AC200EC47B00AF3D84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C60AB200EC47B00AF3D84 /* ViewController.m */; };
+		494C60AF200EC47C00AF3D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494C60AD200EC47C00AF3D84 /* Main.storyboard */; };
+		494C60B1200EC47C00AF3D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494C60B0200EC47C00AF3D84 /* Assets.xcassets */; };
+		494C60B4200EC47C00AF3D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494C60B2200EC47C00AF3D84 /* LaunchScreen.storyboard */; };
+		494C60B7200EC47C00AF3D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C60B6200EC47C00AF3D84 /* main.m */; };
+		494C60C1200EC47C00AF3D84 /* NotaryJessyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C60C0200EC47C00AF3D84 /* NotaryJessyTests.m */; };
+		494C60CC200EC47C00AF3D84 /* NotaryJessyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C60CB200EC47C00AF3D84 /* NotaryJessyUITests.m */; };
+		99F9F5ECECC89A107E3E09CF /* libPods-NotaryJessy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A26E997010D8345EC8CF3AA /* libPods-NotaryJessy.a */; };
+		9BEBDC0447D022C0F9545003 /* libPods-NotaryJessyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F99F2E0887E2AE57DFD8C687 /* libPods-NotaryJessyTests.a */; };
+		F245D86329B98F33387DD8C7 /* libPods-NotaryJessyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B68AFE4F2C902AFCB3AA7FF9 /* libPods-NotaryJessyUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		494C60BD200EC47C00AF3D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494C609C200EC47B00AF3D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494C60A3200EC47B00AF3D84;
+			remoteInfo = NotaryJessy;
+		};
+		494C60C8200EC47C00AF3D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494C609C200EC47B00AF3D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494C60A3200EC47B00AF3D84;
+			remoteInfo = NotaryJessy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E3A8F1605DBFD1F02BB0C6 /* Pods-NotaryJessy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotaryJessy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotaryJessy/Pods-NotaryJessy.debug.xcconfig"; sourceTree = "<group>"; };
+		404F7AF21AF146DD2DD4BAA8 /* Pods-NotaryJessyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotaryJessyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotaryJessyUITests/Pods-NotaryJessyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		494C60A4200EC47B00AF3D84 /* NotaryJessy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotaryJessy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C60A7200EC47B00AF3D84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		494C60A8200EC47B00AF3D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		494C60AA200EC47B00AF3D84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		494C60AB200EC47B00AF3D84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		494C60AE200EC47C00AF3D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		494C60B0200EC47C00AF3D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494C60B3200EC47C00AF3D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		494C60B5200EC47C00AF3D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494C60B6200EC47C00AF3D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		494C60BC200EC47C00AF3D84 /* NotaryJessyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotaryJessyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C60C0200EC47C00AF3D84 /* NotaryJessyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotaryJessyTests.m; sourceTree = "<group>"; };
+		494C60C2200EC47C00AF3D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494C60C7200EC47C00AF3D84 /* NotaryJessyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotaryJessyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C60CB200EC47C00AF3D84 /* NotaryJessyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotaryJessyUITests.m; sourceTree = "<group>"; };
+		494C60CD200EC47C00AF3D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E27FC8DA7B5A5F19840DC9 /* Pods-NotaryJessyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotaryJessyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotaryJessyTests/Pods-NotaryJessyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A26E997010D8345EC8CF3AA /* libPods-NotaryJessy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotaryJessy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97342329C9656ADA15175CF7 /* Pods-NotaryJessyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotaryJessyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotaryJessyUITests/Pods-NotaryJessyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B68AFE4F2C902AFCB3AA7FF9 /* libPods-NotaryJessyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotaryJessyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3852196ABA35944AAE78875 /* Pods-NotaryJessy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotaryJessy.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotaryJessy/Pods-NotaryJessy.release.xcconfig"; sourceTree = "<group>"; };
+		EDD1CBBCF97D8B411E11213C /* Pods-NotaryJessyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotaryJessyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotaryJessyTests/Pods-NotaryJessyTests.release.xcconfig"; sourceTree = "<group>"; };
+		F99F2E0887E2AE57DFD8C687 /* libPods-NotaryJessyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotaryJessyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494C60A1200EC47B00AF3D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F9F5ECECC89A107E3E09CF /* libPods-NotaryJessy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C60B9200EC47C00AF3D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEBDC0447D022C0F9545003 /* libPods-NotaryJessyTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C60C4200EC47C00AF3D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F245D86329B98F33387DD8C7 /* libPods-NotaryJessyUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2353A538A4EFDEC12DECFC3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06E3A8F1605DBFD1F02BB0C6 /* Pods-NotaryJessy.debug.xcconfig */,
+				E3852196ABA35944AAE78875 /* Pods-NotaryJessy.release.xcconfig */,
+				63E27FC8DA7B5A5F19840DC9 /* Pods-NotaryJessyTests.debug.xcconfig */,
+				EDD1CBBCF97D8B411E11213C /* Pods-NotaryJessyTests.release.xcconfig */,
+				97342329C9656ADA15175CF7 /* Pods-NotaryJessyUITests.debug.xcconfig */,
+				404F7AF21AF146DD2DD4BAA8 /* Pods-NotaryJessyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		494C609B200EC47B00AF3D84 = {
+			isa = PBXGroup;
+			children = (
+				494C60A6200EC47B00AF3D84 /* NotaryJessy */,
+				494C60BF200EC47C00AF3D84 /* NotaryJessyTests */,
+				494C60CA200EC47C00AF3D84 /* NotaryJessyUITests */,
+				494C60A5200EC47B00AF3D84 /* Products */,
+				2353A538A4EFDEC12DECFC3E /* Pods */,
+				DFCFB29DCE9C5484A258E9FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		494C60A5200EC47B00AF3D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494C60A4200EC47B00AF3D84 /* NotaryJessy.app */,
+				494C60BC200EC47C00AF3D84 /* NotaryJessyTests.xctest */,
+				494C60C7200EC47C00AF3D84 /* NotaryJessyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494C60A6200EC47B00AF3D84 /* NotaryJessy */ = {
+			isa = PBXGroup;
+			children = (
+				494C60A7200EC47B00AF3D84 /* AppDelegate.h */,
+				494C60A8200EC47B00AF3D84 /* AppDelegate.m */,
+				494C60AA200EC47B00AF3D84 /* ViewController.h */,
+				494C60AB200EC47B00AF3D84 /* ViewController.m */,
+				494C60AD200EC47C00AF3D84 /* Main.storyboard */,
+				494C60B0200EC47C00AF3D84 /* Assets.xcassets */,
+				494C60B2200EC47C00AF3D84 /* LaunchScreen.storyboard */,
+				494C60B5200EC47C00AF3D84 /* Info.plist */,
+				494C60B6200EC47C00AF3D84 /* main.m */,
+			);
+			path = NotaryJessy;
+			sourceTree = "<group>";
+		};
+		494C60BF200EC47C00AF3D84 /* NotaryJessyTests */ = {
+			isa = PBXGroup;
+			children = (
+				494C60C0200EC47C00AF3D84 /* NotaryJessyTests.m */,
+				494C60C2200EC47C00AF3D84 /* Info.plist */,
+			);
+			path = NotaryJessyTests;
+			sourceTree = "<group>";
+		};
+		494C60CA200EC47C00AF3D84 /* NotaryJessyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				494C60CB200EC47C00AF3D84 /* NotaryJessyUITests.m */,
+				494C60CD200EC47C00AF3D84 /* Info.plist */,
+			);
+			path = NotaryJessyUITests;
+			sourceTree = "<group>";
+		};
+		DFCFB29DCE9C5484A258E9FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A26E997010D8345EC8CF3AA /* libPods-NotaryJessy.a */,
+				F99F2E0887E2AE57DFD8C687 /* libPods-NotaryJessyTests.a */,
+				B68AFE4F2C902AFCB3AA7FF9 /* libPods-NotaryJessyUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494C60A3200EC47B00AF3D84 /* NotaryJessy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494C60D0200EC47C00AF3D84 /* Build configuration list for PBXNativeTarget "NotaryJessy" */;
+			buildPhases = (
+				EE6E40DC4CAAE4E564E39159 /* [CP] Check Pods Manifest.lock */,
+				494C60A0200EC47B00AF3D84 /* Sources */,
+				494C60A1200EC47B00AF3D84 /* Frameworks */,
+				494C60A2200EC47B00AF3D84 /* Resources */,
+				58D419BE0F28A37FDB188070 /* [CP] Embed Pods Frameworks */,
+				F51CF4A45C7B7C410ED03098 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotaryJessy;
+			productName = NotaryJessy;
+			productReference = 494C60A4200EC47B00AF3D84 /* NotaryJessy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		494C60BB200EC47C00AF3D84 /* NotaryJessyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494C60D3200EC47C00AF3D84 /* Build configuration list for PBXNativeTarget "NotaryJessyTests" */;
+			buildPhases = (
+				BC4CD09E05D330750CD2AF2E /* [CP] Check Pods Manifest.lock */,
+				494C60B8200EC47C00AF3D84 /* Sources */,
+				494C60B9200EC47C00AF3D84 /* Frameworks */,
+				494C60BA200EC47C00AF3D84 /* Resources */,
+				2A5955096736A0F2A0A23F0A /* [CP] Embed Pods Frameworks */,
+				B17512A9FBBC6FF1A2E40D7A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494C60BE200EC47C00AF3D84 /* PBXTargetDependency */,
+			);
+			name = NotaryJessyTests;
+			productName = NotaryJessyTests;
+			productReference = 494C60BC200EC47C00AF3D84 /* NotaryJessyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		494C60C6200EC47C00AF3D84 /* NotaryJessyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494C60D6200EC47C00AF3D84 /* Build configuration list for PBXNativeTarget "NotaryJessyUITests" */;
+			buildPhases = (
+				EB87BDA77BC8B7DDB6439741 /* [CP] Check Pods Manifest.lock */,
+				494C60C3200EC47C00AF3D84 /* Sources */,
+				494C60C4200EC47C00AF3D84 /* Frameworks */,
+				494C60C5200EC47C00AF3D84 /* Resources */,
+				E45B3ED7734A4826D3D1FE1A /* [CP] Embed Pods Frameworks */,
+				EA569EEEED87D93FB6E36663 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494C60C9200EC47C00AF3D84 /* PBXTargetDependency */,
+			);
+			name = NotaryJessyUITests;
+			productName = NotaryJessyUITests;
+			productReference = 494C60C7200EC47C00AF3D84 /* NotaryJessyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494C609C200EC47B00AF3D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "JD Join-stock Company";
+				TargetAttributes = {
+					494C60A3200EC47B00AF3D84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					494C60BB200EC47C00AF3D84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 494C60A3200EC47B00AF3D84;
+					};
+					494C60C6200EC47C00AF3D84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 494C60A3200EC47B00AF3D84;
+					};
+				};
+			};
+			buildConfigurationList = 494C609F200EC47B00AF3D84 /* Build configuration list for PBXProject "NotaryJessy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 494C609B200EC47B00AF3D84;
+			productRefGroup = 494C60A5200EC47B00AF3D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494C60A3200EC47B00AF3D84 /* NotaryJessy */,
+				494C60BB200EC47C00AF3D84 /* NotaryJessyTests */,
+				494C60C6200EC47C00AF3D84 /* NotaryJessyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494C60A2200EC47B00AF3D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C60B4200EC47C00AF3D84 /* LaunchScreen.storyboard in Resources */,
+				494C60B1200EC47C00AF3D84 /* Assets.xcassets in Resources */,
+				494C60AF200EC47C00AF3D84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C60BA200EC47C00AF3D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C60C5200EC47C00AF3D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A5955096736A0F2A0A23F0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotaryJessyTests/Pods-NotaryJessyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58D419BE0F28A37FDB188070 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotaryJessy/Pods-NotaryJessy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17512A9FBBC6FF1A2E40D7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotaryJessyTests/Pods-NotaryJessyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4CD09E05D330750CD2AF2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotaryJessyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E45B3ED7734A4826D3D1FE1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotaryJessyUITests/Pods-NotaryJessyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA569EEEED87D93FB6E36663 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotaryJessyUITests/Pods-NotaryJessyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB87BDA77BC8B7DDB6439741 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotaryJessyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6E40DC4CAAE4E564E39159 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotaryJessy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F51CF4A45C7B7C410ED03098 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NotaryJessy/Pods-NotaryJessy-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotaryJessy/Pods-NotaryJessy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494C60A0200EC47B00AF3D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C60AC200EC47B00AF3D84 /* ViewController.m in Sources */,
+				494C60B7200EC47C00AF3D84 /* main.m in Sources */,
+				494C60A9200EC47B00AF3D84 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C60B8200EC47C00AF3D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C60C1200EC47C00AF3D84 /* NotaryJessyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494C60C3200EC47C00AF3D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C60CC200EC47C00AF3D84 /* NotaryJessyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		494C60BE200EC47C00AF3D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494C60A3200EC47B00AF3D84 /* NotaryJessy */;
+			targetProxy = 494C60BD200EC47C00AF3D84 /* PBXContainerItemProxy */;
+		};
+		494C60C9200EC47C00AF3D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494C60A3200EC47B00AF3D84 /* NotaryJessy */;
+			targetProxy = 494C60C8200EC47C00AF3D84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		494C60AD200EC47C00AF3D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494C60AE200EC47C00AF3D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		494C60B2200EC47C00AF3D84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494C60B3200EC47C00AF3D84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494C60CE200EC47C00AF3D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		494C60CF200EC47C00AF3D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		494C60D1200EC47C00AF3D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E3A8F1605DBFD1F02BB0C6 /* Pods-NotaryJessy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NotaryJessy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessy.ios.apps.NotaryJessy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		494C60D2200EC47C00AF3D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3852196ABA35944AAE78875 /* Pods-NotaryJessy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NotaryJessy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessy.ios.apps.NotaryJessy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		494C60D4200EC47C00AF3D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E27FC8DA7B5A5F19840DC9 /* Pods-NotaryJessyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NotaryJessyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessy.ios.apps.NotaryJessyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotaryJessy.app/NotaryJessy";
+			};
+			name = Debug;
+		};
+		494C60D5200EC47C00AF3D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD1CBBCF97D8B411E11213C /* Pods-NotaryJessyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NotaryJessyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessy.ios.apps.NotaryJessyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotaryJessy.app/NotaryJessy";
+			};
+			name = Release;
+		};
+		494C60D7200EC47C00AF3D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97342329C9656ADA15175CF7 /* Pods-NotaryJessyUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NotaryJessyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessy.ios.apps.NotaryJessyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotaryJessy;
+			};
+			name = Debug;
+		};
+		494C60D8200EC47C00AF3D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404F7AF21AF146DD2DD4BAA8 /* Pods-NotaryJessyUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NotaryJessyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessy.ios.apps.NotaryJessyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotaryJessy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494C609F200EC47B00AF3D84 /* Build configuration list for PBXProject "NotaryJessy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C60CE200EC47C00AF3D84 /* Debug */,
+				494C60CF200EC47C00AF3D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494C60D0200EC47C00AF3D84 /* Build configuration list for PBXNativeTarget "NotaryJessy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C60D1200EC47C00AF3D84 /* Debug */,
+				494C60D2200EC47C00AF3D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494C60D3200EC47C00AF3D84 /* Build configuration list for PBXNativeTarget "NotaryJessyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C60D4200EC47C00AF3D84 /* Debug */,
+				494C60D5200EC47C00AF3D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494C60D6200EC47C00AF3D84 /* Build configuration list for PBXNativeTarget "NotaryJessyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C60D7200EC47C00AF3D84 /* Debug */,
+				494C60D8200EC47C00AF3D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494C609C200EC47B00AF3D84 /* Project object */;
+}
